@@ -1,0 +1,1 @@
+Sample repo for running/debugging multiple function projects at the same time with a multi-root workspace.
