@@ -2,11 +2,11 @@
   "version": "0.2.0",
   "configurations": [
     {
-      "name": "Attach to Node Functions",
+      "name": "Attach to app2",
       "type": "node",
       "request": "attach",
-      "port": 9229,
-      "preLaunchTask": "func: host start"
+      "port": 9228,
+      "preLaunchTask": "func: host start --port 7072"
     }
   ]
 }
