@@ -1,0 +1,13 @@
+{
+  "azureFunctions.projectRuntime": "~2",
+  "azureFunctions.projectLanguage": "Python",
+  "azureFunctions.deploySubpath": "app1.zip",
+  "azureFunctions.preDeployTask": "func: pack",
+  "files.exclude": {
+    "obj": true,
+    "bin": true
+  },
+  "azureFunctions.pythonVenv": ".env",
+  "debug.internalConsoleOptions": "neverOpen",
+  "python.pythonPath": ".env/bin/python3.6"
+}
